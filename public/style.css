@@ -28,6 +28,13 @@ h3 {
     font-size: 10px;
 }
 
+h5 {
+    font-family: 'Geo', sans-serif;
+    color: white;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
 h4 {
     font-family: 'Geo', sans-serif;
     color: white;
