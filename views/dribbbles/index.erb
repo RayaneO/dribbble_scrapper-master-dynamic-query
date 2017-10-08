@@ -1,5 +1,7 @@
 <% if @dribbbles.any? %>
-<div class="container-full">
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-3">
      <ul class="list-unstyled">
       <% @dribbbles.each do |dribbble| %>
         <li>
@@ -16,7 +18,16 @@
         </li>
       <% end %>
     </ul>
+    </div>
+  </div>
+</div>
 </div>
 <% else %>
-  <p>There is no dribbble for this request :(</p>
+  <p>On a pas trouvé :(</p>
 <% end %>
+
+
+
+      <!-- div class="card" -->
+   
+    
